@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(bg.png);
+    height: 100vh;
+    background-position:center;
+    background-size:cover;
+}
+nav {
+    background-color: #000;
+    height: 65px;
+    display: flex;
+} 
+nav img{
+    height: 30px;
+    margin: 15px 30px 15px 30px;
+    border-right: 1px solid #ffffff;
+    padding-right: 50px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+nav button{
+    position: absolute;
+    right: 30px;
+    padding: 4px 15px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #bb00b8;
+    border: 1px solid #bb00b8;
+    border-radius: 4px;
+}
+button a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.main{
+    width: auto;
+    margin: 150px auto auto auto ;
+    width: 500px;
+    justify-content:center;
+    align-items:center;
+}
+.main h1{
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    color: #ffffff;
+}
+.main p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+}
+.btn{
+    margin: 30px auto 10px 135px;
+}
+.btn button{
+    padding: 6px 15px;
+    background-color: #bb00b8;
+    border: 1px solid #bb00b8;
+    border-radius: 7px;
+}
+.btn button a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
